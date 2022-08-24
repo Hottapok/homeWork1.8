@@ -45,7 +45,6 @@ public class Main {
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
             daysForDelivery = 3;
         }
-
         return daysForDelivery;
     }
 }
